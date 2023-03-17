@@ -27,6 +27,7 @@ rectangle Сообщение {
 }
   
 @enduml
+  
   ![image](https://user-images.githubusercontent.com/45264292/225944473-3d0491ea-9fa5-4b80-bc33-64737052d527.png)
 -
 -
