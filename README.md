@@ -1,3 +1,36 @@
+Практика 0
+@startuml "Praktika 1"
+left to right direction
+title Система мгновенного обмена сообщениями
+actor Система
+actor Абонент
+
+rectangle Сообщение {
+
+Система -- (Регестрация или анулирование)
+
+(Регестрация или анулирование) ..>(Статус подключения):<<include>>
+  
+Абонент -- (Статус подключения)
+  
+(Статус подключения) ..> (Cообщение):<<include>>
+  
+(Cообщение) <..> (Поверака получения):<<include>>
+  
+(Cообщение) <..> (Статус подключения):<<include>>
+  
+}
+@enduml
+  ![image](https://user-images.githubusercontent.com/45264292/225944473-3d0491ea-9fa5-4b80-bc33-64737052d527.png)
+
+
+
+  
+  
+  
+  
+
+
 Практика 1
 @startuml "Praktika 1"
 left to right direction
