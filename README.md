@@ -1,5 +1,5 @@
 Практика 0
-
+```
 @startuml "Praktika 1"
 
 left to right direction
@@ -27,7 +27,7 @@ rectangle Сообщение {
 }
   
 @enduml
-  
+```  
   ![image](https://user-images.githubusercontent.com/45264292/225944473-3d0491ea-9fa5-4b80-bc33-64737052d527.png)
 -
 -
@@ -36,7 +36,7 @@ rectangle Сообщение {
 -
 -
 Практика 1
-  
+```
 @startuml "Praktika 1"
   
 left to right direction
@@ -146,6 +146,6 @@ class Отправка_получение{
   
 
 @enduml
-  
+```  
   
 ![image](https://user-images.githubusercontent.com/45264292/225944610-ffa19ac5-1abd-47b5-bc5e-b33565862d1f.png)
