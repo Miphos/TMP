@@ -1,6 +1,6 @@
-Практика 2
-Диаграмма последовательности
-
+# Практика 2
+##Диаграмма последовательности
+```
 @startuml "Диаграмма последовательности"
 participant Абонент_1
 participant Абонент_2
@@ -17,5 +17,5 @@ participant Мессенджер
 
 
 @enduml
-
+```
 ![Code_VdQhCrseqf](https://github.com/Miphos/TMP/assets/45264292/139def31-a5f1-4615-af25-4e60597e1390)
